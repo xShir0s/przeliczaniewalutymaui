@@ -38,7 +38,7 @@ namespace kantorwymianywalutzlodzieje
         {
             string data = dpData.Date.ToString("yyyy-MM-dd");
             
-            string url = "https://api.nbp.pl/api/exchangerates/rates/c/"+ Name.Text+"/"+$"{data}"+"/?format=json";
+            string url = "https://api.nbp.pl/api/exchangerates/rates/c/"+ picker.SelectedItem+"/"+$"{data}"+"/?format=json";
             string json;
             
                 using (var webClient = new WebClient())

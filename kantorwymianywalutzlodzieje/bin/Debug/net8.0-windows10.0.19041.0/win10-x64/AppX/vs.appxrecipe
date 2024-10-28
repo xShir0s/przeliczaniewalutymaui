@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\4m\Desktop\kantor\kantorwymianywalutzlodzieje\kantorwymianywalutzlodzieje\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-28T10:26:46.877</Modified>
+      <Modified>2024-10-28T11:52:30.682</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\kantor\kantorwymianywalutzlodzieje\kantorwymianywalutzlodzieje\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\kantorwymianywalutzlodzieje.dll">
       <PackagePath>kantorwymianywalutzlodzieje.dll</PackagePath>
-      <Modified>2024-10-28T10:26:46.619</Modified>
+      <Modified>2024-10-28T11:52:30.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\kantor\kantorwymianywalutzlodzieje\kantorwymianywalutzlodzieje\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>kantorwymianywalutzlodzieje.exe</PackagePath>
-      <Modified>2024-10-28T10:26:46.623</Modified>
+      <Modified>2024-10-28T11:52:30.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\kantor\kantorwymianywalutzlodzieje\kantorwymianywalutzlodzieje\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

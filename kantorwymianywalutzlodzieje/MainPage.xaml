@@ -20,14 +20,19 @@
         Clicked="OnCounterClicked"
         HorizontalOptions="Fill" />
 
-            <Entry
-                
-                x:Name="Name"
-                Placeholder="wpisz wybraną walute"
-                
-                >
-                    
-            </Entry>
+            <Picker x:Name="picker"
+        Title="wybierz walutę">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>usd</x:String>
+                        <x:String>gbp</x:String>
+                        <x:String>eur</x:String>
+                        <x:String>chf</x:String>
+                        <x:String>jpy</x:String>
+               
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
 
         </VerticalStackLayout>    
         
