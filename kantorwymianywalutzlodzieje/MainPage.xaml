@@ -4,17 +4,35 @@
              x:Class="kantorwymianywalutzlodzieje.MainPage">
 
     <ScrollView>
+        <VerticalStackLayout>
+            <Label
+    x:Name="lblJSON"
+    />
+            <DatePicker
+    x:Name="dpData"
+    MinimumDate="2003-02-01">
+            </DatePicker>
 
-        <Label
-            x:Name="lblJSON"
-            />
+            <Button
+        x:Name="CounterBtn"
+        Text="Click me" 
+        SemanticProperties.Hint="Counts the number of times you click"
+        Clicked="OnCounterClicked"
+        HorizontalOptions="Fill" />
 
-        <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+            <Entry
+                
+                x:Name="Name"
+                Placeholder="wpisz wybraną walute"
+                
+                >
+                    
+            </Entry>
+            <Button>
+                
+            </Button>
+        </VerticalStackLayout>    
+        
        
         
     </ScrollView>

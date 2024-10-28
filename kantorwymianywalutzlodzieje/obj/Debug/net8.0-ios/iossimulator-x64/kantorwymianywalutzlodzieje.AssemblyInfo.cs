@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kantorwymianywalutzlodzieje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d86d6ec65705f70d3ccf1ed363a5581b6e6db30e")]
 [assembly: System.Reflection.AssemblyProductAttribute("kantorwymianywalutzlodzieje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kantorwymianywalutzlodzieje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

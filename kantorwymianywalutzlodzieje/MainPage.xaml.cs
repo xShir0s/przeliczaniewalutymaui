@@ -1,5 +1,7 @@
 ﻿using System.Net;
 using System.Text.Json;
+using System.Xml.Linq;
+using static System.Net.WebRequestMethods;
 
 namespace kantorwymianywalutzlodzieje
 {
@@ -28,28 +30,39 @@ namespace kantorwymianywalutzlodzieje
         public MainPage()
         {
             InitializeComponent();
+            DateTime dzis = DateTime.Now;
+            dpData.MaximumDate = dzis;
         }
-
+ 
         private void OnCounterClicked(object sender, EventArgs e)
         {
-            string url = "https://api.nbp.pl/api/exchangerates/rates/c/usd/2024-10-22/?format=json";
+            string data = dpData.Date.ToString("yyyy-MM-dd");
+            
+            string url = "https://api.nbp.pl/api/exchangerates/rates/c/"+ Name.Text+"/"+$"{data}"+"/?format=json";
             string json;
+            
                 using (var webClient = new WebClient())
             {
 
                 json = webClient.DownloadString(url);
+                
 
 
             }
 
             Currency c = JsonSerializer.Deserialize<Currency>(json);
+        
 
             string s = $"nazwa waluty: {c.currency}\n";
             s += $"Kod waluty: {c.code}\n";
             s += $"Data: {c.rates[0].effectiveDate}\n";
+            
             s += $"Cena skupu: {c.rates[0].bid}\n";
             s += $"Cena sprzedaży: {c.rates[0].ask}\n";
-            lblJSON.text = s;
+
+
+
+            lblJSON.Text = s;
 
             
 
