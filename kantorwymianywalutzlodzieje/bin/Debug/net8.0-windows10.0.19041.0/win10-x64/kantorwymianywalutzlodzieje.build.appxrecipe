@@ -214,6 +214,12 @@
     <AppxPackagedFile Include="C:\Users\4m\Desktop\kantor\kantorwymianywalutzlodzieje\kantorwymianywalutzlodzieje\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\4m\Desktop\kantor\kantorwymianywalutzlodzieje\kantorwymianywalutzlodzieje\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\down.scale-100.jpg">
+      <PackagePath>down.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\4m\Desktop\kantor\kantorwymianywalutzlodzieje\kantorwymianywalutzlodzieje\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\up.scale-100.jpg">
+      <PackagePath>up.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\kantor\kantorwymianywalutzlodzieje\kantorwymianywalutzlodzieje\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\kantorwymianywalutzlodzieje.deps.json">
       <PackagePath>kantorwymianywalutzlodzieje.deps.json</PackagePath>
     </AppxPackagedFile>
