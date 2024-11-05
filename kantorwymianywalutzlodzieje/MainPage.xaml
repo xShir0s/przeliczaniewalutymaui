@@ -6,9 +6,16 @@
     <ScrollView>
         <VerticalStackLayout
             HorizontalOptions="Start">
+            
             <HorizontalStackLayout>
-            <Label
-                x:Name="USD"
+                <Entry
+                    x:Name="currency1"
+                    Text=""
+                    Placeholder="1"
+                    />
+                <Label
+                x:Name="Curr1"
+                    Text="waluta 1"
                 Background="Black"
                 TextColor="white"
                 WidthRequest="900"
@@ -16,60 +23,35 @@
                 
                 VerticalTextAlignment="Center"
                 />
-                <Image
-                    WidthRequest="40"
-                    HeightRequest="40"
-                    x:Name="USDPIC"
-                    Source="up.jpg"
-                    >
-                    
-                </Image>
-                
-            </HorizontalStackLayout>
+                </HorizontalStackLayout>
             <HorizontalStackLayout>
-            <Label
-                x:Name="GBP"
+                <Entry
+                    x:Name="currency2"
+                    Text=""
+                    Placeholder="2"
+                    />
+                <Label
+                x:Name="Curr2"
                 Background="Black"
+                    Text="waluta 2"
                 TextColor="white"
                 WidthRequest="900"
-                HeightRequest="100"
-                VerticalTextAlignment="Center"
-                 />
-                <Image
-                    x:Name="GBPPIC"
-                    Source="up.jpg"
-                    WidthRequest="40"
-                    HeightRequest="40"
-                    >
-
-                </Image>
-            </HorizontalStackLayout>
-            <HorizontalStackLayout>
-            <Label
-                x:Name="JPY"
-                Background="Black"
-                TextColor="white"
-                WidthRequest="900"
-                
                 HeightRequest="100"
                 VerticalTextAlignment="Center"
                 />
-                <Image
-                    x:Name="JPYPIC"
-                    Source="up.jpg"
-                    WidthRequest="40"
-                    HeightRequest="40"
-                    >
-
-                </Image>
+            </HorizontalStackLayout>
+            <Button Clicked="OnButtonClicked"/>
+            <HorizontalStackLayout>
+                <Entry
+                    x:Name="ilosc"
+                    Placeholder="podaj ilosc"
+                    />
+                <Label 
+                    x:Name="Przeliczenie"
+                    Text="wartosc"
+                    />
 
             </HorizontalStackLayout>
- 
-
-
-
-
-
 
 
         </VerticalStackLayout>    
